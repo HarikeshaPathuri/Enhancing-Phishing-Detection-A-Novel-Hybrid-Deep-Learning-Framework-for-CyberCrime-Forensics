@@ -66,7 +66,7 @@ Model performance is benchmarked and visualized directly in the admin dashboard 
 
 ---
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -97,7 +97,7 @@ Model performance is benchmarked and visualized directly in the admin dashboard 
 
 ---
 
-## ⚙️ Installation & Setup
+# Installation & Setup
 
 ```bash
 # 1. Clone the repository
