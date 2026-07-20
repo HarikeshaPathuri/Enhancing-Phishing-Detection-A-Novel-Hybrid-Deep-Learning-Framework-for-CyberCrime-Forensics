@@ -1,10 +1,10 @@
-# 🛡️ Enhancing Phishing Detection: A Novel Hybrid Deep Learning Framework for Cybercrime Forensics
+#  Enhancing Phishing Detection: A Novel Hybrid Deep Learning Framework for Cybercrime Forensics
 
 > A Django-based web platform that detects phishing, malware, and defaced URLs in real time using an ensemble of classical machine learning and deep learning models — built as a Major Project (B.Tech CSE – AI & ML) at Sree Chaitanya Institute of Technological Sciences, JNTUH.
 
 ---
 
-## 📌 Overview
+# Overview
 
 Phishing remains one of the most widespread cybercrime techniques used to steal financial and personal data through deceptive URLs, spoofed emails, and fraudulent websites. This project implements a **web-based phishing URL detection system** that classifies a submitted URL into one of several threat categories — **Phishing, Non-Phishing, Malware, or Defacement** — and gives administrators a dashboard to train models, compare classifier performance, and monitor users.
 
@@ -12,7 +12,7 @@ The system is inspired by and builds on concepts from the IEEE Access paper *"En
 
 ---
 
-## 🎯 Objectives
+# Objectives
 
 - Detect phishing/malicious URLs in real time with high accuracy.
 - Handle class imbalance in phishing datasets effectively.
@@ -22,15 +22,15 @@ The system is inspired by and builds on concepts from the IEEE Access paper *"En
 
 ---
 
-## 🧩 Key Features
+# Key Features
 
-### 👤 Remote User Module
+# Remote User Module
 - User registration and secure login
 - Submit a URL and get an instant prediction
 - View personal profile details
 - View phishing detection prediction results
 
-### 🛠️ Service Provider (Admin) Module
+#  Service Provider (Admin) Module
 - Secure admin login
 - Train & test URL datasets
 - View model accuracy as **bar charts** and **pie charts**
@@ -40,7 +40,7 @@ The system is inspired by and builds on concepts from the IEEE Access paper *"En
 
 ---
 
-## 🏗️ System Architecture
+#  System Architecture
 
 The system follows a client-server architecture with a central web server handling requests from both **Service Providers** and **Remote Users**, backed by a MySQL database for storing datasets, predictions, and user records.
 
@@ -54,7 +54,7 @@ Full architecture, data flow diagrams, use case, class, and sequence diagrams ar
 
 ---
 
-## 🧠 Algorithms & Models Used
+#   Algorithms & Models Used
 
 | Category | Algorithms |
 |---|---|
@@ -79,7 +79,7 @@ Model performance is benchmarked and visualized directly in the admin dashboard 
 
 ---
 
-## 📂 Project Structure (suggested)
+#  Project Structure (suggested)
 
 ```
 ├── phishing_detection/        # Django project settings
@@ -126,7 +126,7 @@ Visit `http://127.0.0.1:8000` in your browser.
 
 ---
 
-## 📊 Results
+#  Results
 
 - Multiple classifiers were trained and evaluated on real-world phishing URL datasets.
 - Model accuracy is visualized via bar and pie charts within the admin dashboard for easy comparison.
@@ -134,7 +134,7 @@ Visit `http://127.0.0.1:8000` in your browser.
 
 ---
 
-## 🔮 Future Scope
+# Future Scope
 
 - Integrate the full ResNeXt + GRU (RNT) hybrid deep learning model with Jaya optimization (RNT-J) as proposed in the referenced research.
 - Incorporate autoencoder + ResNet (EARN) based feature extraction for improved accuracy.
@@ -143,7 +143,7 @@ Visit `http://127.0.0.1:8000` in your browser.
 
 ---
 
-## 👥 Team
+# Team
 
 | Name | Hall Ticket No. |
 |---|---|
@@ -158,13 +158,13 @@ Visit `http://127.0.0.1:8000` in your browser.
 
 ---
 
-## 📖 Reference
+# Reference
 
 This project is conceptually inspired by:
 > F. S. Alsubaei, A. A. Almazroi and N. Ayub, "Enhancing Phishing Detection: A Novel Hybrid Deep Learning Framework for Cybercrime Forensics," *IEEE Access*, vol. 12, 2024.
 
 ---
 
-## 📄 License
+# License
 
 This project was developed for academic purposes as part of a B.Tech Major Project. Feel free to fork and build upon it for learning purposes.
